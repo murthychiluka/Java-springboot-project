@@ -134,6 +134,7 @@ st.markdown("""
     label {
         color: #e0e0e0 !important;
         font-weight: 500 !important;
+        
         font-size: 16px !important;
     }
 
@@ -349,7 +350,7 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # API URL
-API_URL = os.environ.get("API_URL", "http://172.31.31.121:8084")
+API_URL = os.environ.get("API_URL", "http://172.31.20.26:8084")
 
 # Tabs with emojis and clear names
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
